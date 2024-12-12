@@ -2,22 +2,22 @@ let currentIndex = 0;
 const slides = document.querySelectorAll('.slides img');  
 const totalSlides = slides.length;  
 
-// Show the first image  
+// Show first image  
 slides[currentIndex].classList.add('active');  
 
 function showSlide(index) {  
-    // Hide all images  
+    // Hide  images  
     slides.forEach((slide) => {  
         slide.classList.remove('active');  
     });  
-    // Show the current image  
+    // current image  
     slides[index].classList.add('active');  
 }  
 
 function nextSlide() {  
-    currentIndex = (currentIndex + 1) % totalSlides; // Cycle through slides  
+    currentIndex = (currentIndex + 1) % totalSlides;   
     showSlide(currentIndex);  
 }  
 
-// Automatically change image every 5 seconds  
+// Automatically change 5 seconds  
 setInterval(nextSlide, 5000);
