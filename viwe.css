@@ -1,0 +1,201 @@
+  @keyframes fadeIn {  
+    0% {  
+        opacity: 0;  
+    }  
+    100% {  
+        opacity: 1;  
+    }  
+}  
+
+/* differnt animation all section */  
+body {  
+    animation: fadeIn 1s ease-in; /* Body - 1 second */  
+}  
+
+header {  
+    animation: fadeIn 1.5s ease-in; /* Header -1.5 seconds */  
+}  
+
+main {  
+    animation: fadeIn 2s ease-in; /* Main section - 2 seconds */  
+}  
+
+.day {  
+    animation: fadeIn 2.5s ease-in; /* Day section - 2.5 seconds */  
+}  
+
+h1 {  
+    animation: fadeIn 3s ease-in; /* H1 - 3 seconds */  
+}  
+
+h3 {  
+    animation: fadeIn 3.5s ease-in; /* H3 - 3.5 seconds */  
+}  
+
+.viewing-times {  
+    animation: fadeIn 4s ease-in; /* Viewing times - 4 seconds */  
+}  
+
+.movie {  
+    animation: fadeIn 4.5s ease-in; /* Movie section - seconds */  
+}  
+
+.movie-info {  
+    animation: fadeIn 5s ease-in; /* Movie info - 5 seconds */  
+}   
+
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    background: linear-gradient(#121607, #8f6c0e, #332202, #050401, #5f4600, #1b1905); 
+}  
+
+header {  
+    background-color: #000000;  
+    color: rgb(49, 12, 12);  
+    padding: 20px;  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+}  
+
+h1 {  
+    margin: 10;  
+    flex: 1;  
+}  
+
+nav {  
+    display: flex;  
+    padding: 5px 10px;  
+    flex: 2;  
+    justify-content: center;  
+}  
+
+nav ul {  
+    list-style-type: none;  
+    padding: 1px;  
+    display: flex;  
+    margin: 2px;  
+}  
+
+nav ul li {  
+    margin: 5px 10px;  
+    align-items: center;   
+}  
+
+nav a {  
+    color: white;  
+    text-decoration: none;  
+    font-weight: bold;  
+}  
+
+.search-container {  
+    display: flex;  
+    align-items: right;  
+    margin-left: auto;  
+    padding: 5px 10px;  
+}  
+
+nav input[type="text"] {  
+    padding: 2px;  
+    border: none;  
+    border-radius: 2px;  
+    margin-right: 2px;  
+}  
+
+.search-button {  
+    background-color: #8b7e02c4;  
+    color: white;  
+    border: none;  
+    padding: 5px 10px;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}  
+
+.search-button:hover {  
+    background-color: #abb3ab;  
+}  
+main {  
+    padding: 20px;   
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem; 
+    color: #ffffff; 
+    text-align: left; 
+    margin: 20px 0; 
+} 
+
+.day {  
+    margin: 20px 0;  
+    padding: 10px;
+    
+}  
+
+h3 {  
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 30px;
+    color: #ffe603;  
+    background-color: #000000;  
+    padding: 10px;  
+    border-radius: 5px;  
+}  
+
+.viewing-times {  
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 32px;
+    border-color: #000000;
+    text-align: center;  
+    margin: 10px 0;  
+    color: #f8f3f3;  
+}  
+
+.movie {  
+    display: flex;  
+    justify-content: space-around;  
+    padding: 3px;  
+   
+}  
+
+.movie-info {  
+    flex: 1;  
+    padding: 3px;  
+    font-weight: bold;
+    text-align: center; 
+    background-color: #7c7a7a;  
+    border: 1px solid #cccccc;  
+    border-radius: 15px;  
+    box-shadow: 0 4px 8px rgb(255, 255, 255);  
+    transition: transform 0.2s;  
+    margin: 3px;  
+    max-width: 300px;  
+    max-height: auto; 
+}  
+
+.movie-info p { 
+    color: #000000; 
+    margin: 0;      
+    padding: 0;      
+    line-height: 1.2; /*  line height  */  
+}
+
+.movie-info img {  
+    width: 200x; 
+    height: 120px;   
+    border-radius: 5px; /* rounded corners for images */  
+    box-shadow: 0 2px 4px rgba(241, 241, 241, 0.1); /*shadow for images */  
+}  
+
+.stars {  
+    font-size: 25px; 
+    color: #ffcc00; 
+}  
+
+
+.movie-info:hover {  
+    transform: scale(1.05);  
+}
