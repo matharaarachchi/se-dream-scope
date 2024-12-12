@@ -7,42 +7,41 @@
     }  
 }  
 
-/* differnt animation all section */  
 body {  
     animation: fadeIn 1s ease-in; /* Body - 1 second */  
 }  
 
 header {  
-    animation: fadeIn 1.5s ease-in; /* Header -1.5 seconds */  
+    animation: fadeIn 1.2s ease-in; /* Header -1.5 seconds */  
 }  
 
 main {  
-    animation: fadeIn 2s ease-in; /* Main section - 2 seconds */  
+    animation: fadeIn 1.5s ease-in; /* Main section - 2 seconds */  
 }  
 
 .day {  
-    animation: fadeIn 2.5s ease-in; /* Day section - 2.5 seconds */  
+    animation: fadeIn 1.7s ease-in; /* Day section - 2.5 seconds */  
 }  
 
 h1 {  
-    animation: fadeIn 3s ease-in; /* H1 - 3 seconds */  
+    animation: fadeIn 2s ease-in; /* H1 - 3 seconds */  
 }  
 
 h3 {  
-    animation: fadeIn 3.5s ease-in; /* H3 - 3.5 seconds */  
+    animation: fadeIn 2.2s ease-in; /* H3 - 3.5 seconds */  
 }  
 
 .viewing-times {  
-    animation: fadeIn 4s ease-in; /* Viewing times - 4 seconds */  
+    animation: fadeIn 3s ease-in; /* Viewing times - 4 seconds */  
 }  
 
 .movie {  
-    animation: fadeIn 4.5s ease-in; /* Movie section - seconds */  
+    animation: fadeIn 3.2s ease-in; /* Movie section - seconds */  
 }  
 
 .movie-info {  
-    animation: fadeIn 5s ease-in; /* Movie info - 5 seconds */  
-}   
+    animation: fadeIn 3.5s ease-in; /* Movie info - 5 seconds */  
+}    
 
 body {  
     font-family: Arial, sans-serif;  
