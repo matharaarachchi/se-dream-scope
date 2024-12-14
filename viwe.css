@@ -7,6 +7,7 @@
     }  
 }  
 
+/* differnt animation all section */  
 body {  
     animation: fadeIn 1s ease-in; /* Body - 1 second */  
 }  
@@ -41,7 +42,7 @@ h3 {
 
 .movie-info {  
     animation: fadeIn 3.5s ease-in; /* Movie info - 5 seconds */  
-}    
+}   
 
 body {  
     font-family: Arial, sans-serif;  
@@ -100,11 +101,11 @@ nav input[type="text"] {
     padding: 2px;  
     border: none;  
     border-radius: 2px;  
-    margin-right: 2px;  
+    margin-right: 10px;  
 }  
 
 .search-button {  
-    background-color: #8b7e02c4;  
+    background-color: #161b20;  
     color: white;  
     border: none;  
     padding: 5px 10px;  
@@ -113,8 +114,25 @@ nav input[type="text"] {
 }  
 
 .search-button:hover {  
-    background-color: #abb3ab;  
+    background-color:  #53532ba6;  
 }  
+.login-container {  
+    margin-left: 10px;  /* Pushes the login button to the right */  
+}  
+
+.login-button {  
+    padding: 10px 20px;  
+    font-size: 16px;  
+    background-color: #161b20; /* Bootstrap primary color */  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}  
+
+.login-button:hover {  
+    background-color: #53532ba6; 
+} 
 main {  
     padding: 20px;   
 }
