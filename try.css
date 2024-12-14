@@ -51,6 +51,7 @@ nav ul li a {
 }
 
 .search-bar {
+    margin-right: 10px;
     width: 250px;
     padding: 8px;
     font-size: 16px;
@@ -79,6 +80,23 @@ nav ul li a {
 .search-button:hover {
     background-color: #b6d11baf; 
 }  
+.login-container {  
+    margin-left: 10px;  /* Pushes the login button to the right */  
+}  
+
+.login-button {  
+    padding: 10px 20px;  
+    font-size: 16px;  
+    background-color: #161b20; /* Bootstrap primary color */  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}  
+
+.login-button:hover {  
+    background-color: #53532ba6; 
+} 
 
 .body-container {  
     display: flex;  
